@@ -1,0 +1,22 @@
+Algoritmo Identificador_de_Tornillos
+	Escribir 'ingrese el tamaño del tornillo '
+	Leer TAMANO
+	Si TAMANO>=1 Y TAMANO<=3 Entonces
+		Escribir 'el tornillo es pequeño'
+	FinSi
+	Si TAMANO>3 Y TAMANO<5 Entonces
+		Escribir 'El tornillo el mediano'
+	FinSi
+	Si TAMANO>=5 Y TAMANO<6.5 Entonces
+		Escribir 'El tornillo es grande'
+	FinSi
+	Si TAMANO>=6.5 Y TAMANO<=8.5 Entonces
+		Escribir 'el tornillo es muy grande'
+	FinSi
+	Si TAMANO>8.5 Entonces
+		Escribir 'El tornillo es gigante'
+	FinSi
+	Si  NO (TAMANO>=1 Y TAMANO<=8.5) Entonces
+		Escribir 'el tamaño no es valido'
+	FinSi
+FinAlgoritmo
